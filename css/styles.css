@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #222;
 }
 
 header {
@@ -15,7 +16,7 @@ header {
     align-content: center;
     margin-top: 1.5em; 
     width: 100%;
-    font-family: 'Livvic', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     font-weight: bold;
 }
 
@@ -29,10 +30,23 @@ header {
     text-decoration: none;
 }
 
+section {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+}
+
+h1 {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
 .hero {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url("../images/hero.jpeg");
 }
 
 .hero-figure {
@@ -51,6 +65,29 @@ header {
     position: absolute;
     z-index: 2;
     font-family: 'Lexend Deca', sans-serif;
-    color: white;
+    color: #c1482e;
     font-size: 4em;
+}
+
+.sobre_mi {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-image: url("../images/sobre_mi.jpeg");
+}
+
+.item {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.me-text {
+    margin: 0;
+    color: #2dff00;
+    font-size: 3em;
+}
+
+.retrato {
+    background-image: url("../images/retrato.jpeg");
 }
