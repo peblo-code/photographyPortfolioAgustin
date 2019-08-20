@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin-top: 1.5em; 
+    width: 100%;
+    font-family: 'Livvic', sans-serif;
+    font-weight: bold;
+}
+
+.menu ol {
+    list-style: none;
+    padding: 0;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-figure {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    position: relative;
+}
+
+.hero-figure img {
+    width: 100%;
+}
+
+.hero-text {
+    margin: 0;
+    position: absolute;
+    z-index: 2;
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+    font-size: 4em;
+}
