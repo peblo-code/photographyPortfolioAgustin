@@ -12,6 +12,7 @@ header {
 
 .menu {
     display: flex;
+    position: fixed;
     justify-content: space-around;
     align-content: center;
     margin-top: 1.5em; 
@@ -26,7 +27,7 @@ header {
 }
 
 .link {
-    color: black;
+    color: #c1482e;
     text-decoration: none;
 }
 
@@ -40,6 +41,10 @@ section {
 
 h1 {
     font-family: 'Lexend Deca', sans-serif;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
 }
 
 .hero {
@@ -60,34 +65,57 @@ h1 {
     width: 100%;
 }
 
-.hero-text {
+.div-hero-text {
+    display: grid;
+    position: fixed;
+}
+
+.hero-text1 {
     margin: 0;
-    position: absolute;
-    z-index: 2;
+    font-family: 'Lexend Deca', sans-serif;
+    color: black;
+    font-size: 2em;
+    text-align: center;
+}
+
+.hero-text2 {
+    margin: 0;
     font-family: 'Lexend Deca', sans-serif;
     color: #c1482e;
     font-size: 4em;
 }
 
 .sobre_mi {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    align-items: center;
     background-image: url("../images/sobre_mi.jpeg");
 }
 
 .item {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    justify-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(1, 0, 0, .5);
     align-items: center;
+    border-radius: 5px;
+    height: 12em;
+    width: 30em;
+    margin: 10em;
+    padding: 1em;
 }
 
 .me-text {
     margin: 0;
-    color: #2dff00;
+    color: orange;
     font-size: 3em;
+}
+
+.me-description {
+    color: white;
 }
 
 .retrato {
     background-image: url("../images/retrato.jpeg");
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
