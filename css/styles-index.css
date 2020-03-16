@@ -13,7 +13,7 @@ header {
 .menu {
     display: flex;
     position: fixed;
-    justify-content: space-around;
+    justify-content: center;
     align-content: center;
     margin-top: 1.5em; 
     width: 100%;
@@ -95,6 +95,7 @@ p{
     display: flex;
     flex-wrap: wrap;
     background-color: rgba(1, 0, 0, .5);
+    justify-content: center;
     align-items: center;
     border-radius: 5px;
     height: 12em;
@@ -107,6 +108,8 @@ p{
     margin: 0;
     color: orange;
     font-size: 3em;
+    display: flex;
+    align-items: center;
 }
 
 .btn {
@@ -182,12 +185,34 @@ p{
     justify-content: center; 
 }
 
+.box-social {
+    display: grid;
+    grid-auto-rows: 3em 3em 2em;
+    grid-gap: 2em;
+}
+
 .contact {
     text-decoration: none;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .contact a {
     text-decoration: inherit;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo a {
+    text-decoration: initial;
+    color: red;
+    font-weight: bold;
+}
+
+.logo p {
+    color: wheat;
 }
