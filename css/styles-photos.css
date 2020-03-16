@@ -17,10 +17,15 @@ body {
 }
 .post-image {
     margin: 0;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
 }
 .post-image img {
-    width: 100%;
+    width: inherit;
     vertical-align: top;
+    height: inherit;
+    object-fit: inherit;
 }
 .post-overlay {
     background: rgba(0,0,0, .4);
@@ -78,8 +83,8 @@ h1,h2,h3,h4,h5,h6 {
 .figure-img {
     margin: 0;
     padding: 0;
-    height: 2em;
-    width: 2em;
+    height: 293px;
+    width: 439px;
     border-radius: 50%;
 }
 
@@ -89,4 +94,10 @@ h1,h2,h3,h4,h5,h6 {
     height: inherit;
     width: inherit;
     border-radius: inherit;
+}
+
+iframe {
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
