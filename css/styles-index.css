@@ -51,7 +51,7 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("../images/hero.jpeg");
+    background-image: url("https://i.ibb.co/wWZvN2D/Processed-with-VSCO-with-f2-preset.jpg");
 }
 
 .hero-figure {
@@ -88,7 +88,7 @@ p{
 .sobre_mi {
     display: flex;
     align-items: center;
-    background-image: url("../images/sobre_mi.jpeg");
+    background-image: url("https://i.ibb.co/3TDWL5Q/sobre-mi.jpg");
 }
 
 .item {
@@ -165,21 +165,21 @@ p{
 }
 
 .retrato {
-    background-image: url("../images/retrato.jpeg");
+    background-image: url("https://i.ibb.co/WxKCgLn/Processed-with-VSCO-with-p5-preset.jpg");
     display: flex;
     align-items: center;
     justify-content: flex-end;
 }
 
 .paisaje {
-    background-image: url("../images/paisaje.jpeg");
+    background-image: url("https://i.ibb.co/tKgS9GM/paisaje.jpg");
     display: flex;
     align-items: center;
     justify-content: center; 
 }
 
 .redes_sociales {
-    background-image: url("../images/redes_sociales.jpg");
+    background-image: url("https://i.ibb.co/FXpwkMX/redes-sociales.jpg");
     display: flex;
     align-items: center;
     justify-content: center; 
