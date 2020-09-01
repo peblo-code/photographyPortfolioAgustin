@@ -41,12 +41,10 @@ NavigationButton.prototype.redireccionar = function(nextPage) {
 } 
 
 NavigationButton.prototype.another = function() {
-    debugger
     this.redireccionar(true);
 }
 
 NavigationButton.prototype.back = function() {
-    debugger
     this.redireccionar(false);
 }
 
