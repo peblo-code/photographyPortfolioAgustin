@@ -1,5 +1,6 @@
 import NavigationButton from './NavigationButton.js';
 
+const btnHome = document.getElementById('button-home');
 const btnBack = document.getElementById('button-back');
 const btnNext = document.getElementById('button-next');
 
@@ -15,4 +16,7 @@ btnBack.onclick = function() {
 }
 btnNext.onclick = function() { 
     selector.another();
+}
+btnHome.onclick = function() {
+    selector.home();
 }

@@ -61,10 +61,6 @@ h1,h2,h3,h4,h5,h6 {
     font-family: 'Squada One', cursive;
 }
 
-.container-button-back {
-    margin-right: 1.5em;
-}
-
 button {
     background-color: black;
     color: white;

@@ -4,6 +4,7 @@ function NavigationButton(config) {
     this.maxUrl = this.gallery.length;
     this.actualPath = window.location.pathname;
     this.pageNumber = this.checkPageNumber();
+    this.homePath = `../index.html`;
 }
 
 NavigationButton.prototype.checkPageNumber = function() {
@@ -46,6 +47,10 @@ NavigationButton.prototype.another = function() {
 
 NavigationButton.prototype.back = function() {
     this.redireccionar(false);
+}
+
+NavigationButton.prototype.home = function() {
+    window.location = this.homePath;
 }
 
 export default NavigationButton;
