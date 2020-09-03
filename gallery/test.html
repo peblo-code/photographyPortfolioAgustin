@@ -14,32 +14,6 @@
     </style>
     <script>
         //const $image = document.getElementById('imagen');
-        const initURL = '../images'
-        const URL = '../images/images.json'
-
-        function renderImage(maxImg) {
-            maxImg.forEach(img => {
-                let $image = document.createElement('img');
-                $image.setAttribute('src', initURL + data.imgSobreMi[img]);
-                document.body.appendChild($image);
-            });
-        }
-
-        async function getImage(URL) {
-            try {
-                response = await fetch(URL); //respuesta
-                data = await response.json(); //datos
-                let maxImg = Object.keys(data.imgSobreMi) //sacando array de datos
-                
-                renderImage(maxImg) // renderizamos las imagenes
-                
-            } catch(error) {
-                console.error(`Sucedio un error: ${error}`);
-            }
-        }
-
-        getImage(URL);
-        
     </script>
 </body>
 </html>

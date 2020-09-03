@@ -3,7 +3,7 @@ body {
     font-family: Arial;
     background: #f9f6f6;
 }
-.post-list {
+#post-list {
     display: grid;
     grid-template-columns: repeat(3, minmax(100px, 293px) );
     justify-content: center;
@@ -88,7 +88,7 @@ button:hover {
 }
 
 .perfil {
-    background: white;
+    background: #00000029;
     height: 3em;
     margin: 0;
     padding: 0;
