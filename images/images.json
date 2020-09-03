@@ -1,0 +1,11 @@
+{
+    "name": "sobre-mi",
+    "imgSobreMi": {
+        "0": "/sobre-mi/retrato.jpg",
+        "1": "/sobre-mi/ajuste_camara.jpg",
+        "2": "/sobre-mi/camara_vertical.jpg",
+        "3": "/sobre-mi/mirada_perdida.jpg",
+        "4": "/sobre-mi/observando_balcon.jpg",
+        "5": "/sobre-mi/ojos_verdes.jpg"
+    }
+}
