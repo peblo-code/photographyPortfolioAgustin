@@ -1,11 +1,48 @@
 {
-    "name": "sobre-mi",
     "imgSobreMi": {
         "0": "/sobre-mi/retrato.jpg",
         "1": "/sobre-mi/ajuste_camara.jpg",
         "2": "/sobre-mi/camara_vertical.jpg",
         "3": "/sobre-mi/mirada_perdida.jpg",
         "4": "/sobre-mi/observando_balcon.jpg",
-        "5": "/sobre-mi/ojos_verdes.jpg"
+        "5": "/sobre-mi/ojos_verdes.jpg",
+        "6": "/sobre-mi/toma_vertical.jpg"
+    },
+
+    "imgRetrato": {
+        "0": "/retrato/ajustando_camara.jpg",
+        "1": "/retrato/camara_vertical.jpg",
+        "2": "/retrato/chica_con_plantas.jpg",
+        "3": "/retrato/chica_entre_plantas.jpeg",
+        "4": "/retrato/chica_entre_plantas_v2.jpg",
+        "5": "/retrato/chica_entre_plantas_v3.jpg",
+        "6": "/retrato/chica_entre_plantas_v4.jpg",
+        "7": "/retrato/chica_observando_atardecer.jpg",
+        "8": "/retrato/chica_posando.jpg",
+        "9": "/retrato/chica_posando_v2.jpg",
+        "10": "/retrato/chica_sonriendo.jpg",
+        "11": "/retrato/chica2_posando.jpeg",
+        "12": "/retrato/foto_chica.jpg",
+        "13": "/retrato/montando_caballo.jpg",
+        "14": "/retrato/observando_al_borde.jpg",
+        "15": "/retrato/persona_caminando.jpg",
+        "16": "/retrato/persona_en_tronco.jpg",
+        "17": "/retrato/persona_posando.jpeg",
+        "18": "/retrato/persona_posando_mod.jpg"
+    },
+
+    "imgPaisajes": {
+        "0": "/paisajes/adentrando_bosque.jpg",
+        "1": "/paisajes/atardecer_ruta.jpg",
+        "2": "/paisajes/bajando_monte.jpg",
+        "3": "/paisajes/camino_bosque.jpg",
+        "4": "/paisajes/costanera.jpg",
+        "5": "/paisajes/disfrutando_paisaje.jpg",
+        "6": "/paisajes/observando_paisaje.jpg",
+        "7": "/paisajes/observando_ruta.jpg",
+        "8": "/paisajes/paisaje_desde_rejas.jpg",
+        "9": "/paisajes/paisaje_desde_ventana.jpg",
+        "10": "/paisajes/planta_marchita.jpg"
+        
     }
 }

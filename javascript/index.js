@@ -3,11 +3,10 @@ import NavigationButton from './NavigationButton.js';
 const btnHome = document.getElementById('button-home');
 const btnBack = document.getElementById('button-back');
 const btnNext = document.getElementById('button-next');
+const gallery = [`sobre-mi.html`, `retratos.html`, `paisajes.html`]
 
 
-const selector = new NavigationButton({
-    gallery: [`sobre-mi.html`, `retratos.html`, `paisajes.html`],
-});
+const selector = new NavigationButton({ gallery });
 
 // selector.another();
 
@@ -21,12 +20,33 @@ btnHome.onclick = function() {
     selector.home();
 }
 
-// carga y renderizado de imagenes
+// CARGA DE IMAGENES
 
 const initURL = '../images'
 const URL = '../images/images.json'
 let data;
 let response;
+
+function imgPage(data, pages, img) {
+    let imgPosition = img || null;
+    let result;
+    switch(window.location.pathname) {
+        case `/gallery/` + pages[0]:
+            result = data.imgSobreMi
+            break;
+        case `/gallery/` + pages[1]:
+            result = data.imgRetrato
+            break;
+        case `/gallery/` + pages[2]:
+            result = data.imgPaisajes
+            break;
+    }
+    if(imgPosition) {
+        return result[imgPosition];
+    }
+    return result;
+
+}
 
 function setElementAttribute(element, attributes) {
     for (let key in attributes) {
@@ -43,7 +63,7 @@ function renderImage(maxImg) {
         $figure.appendChild($image);
         
         const attrImage = {
-            'src': `${initURL}${data.imgSobreMi[img]}`
+            'src': `${initURL}${imgPage(data, gallery, img)}`
         }
 
          const attrFigure = {
@@ -59,7 +79,7 @@ async function getImage(URL) {
     try {
         response = await fetch(URL); //respuesta
         data = await response.json(); //datos
-        let maxImg = Object.keys(data.imgSobreMi) //sacando array de datos
+        let maxImg = Object.keys(imgPage(data, gallery)) //sacando array de datos
         renderImage(maxImg) // renderizamos las imagenes
         
     } catch(error) {
