@@ -216,3 +216,36 @@ p{
 .logo p {
     color: wheat;
 }
+
+@media screen and (max-width: 768px) {
+    .hero-text1 {
+        font-size: 1.5em
+    }
+
+    .hero-text2 {
+        font-size: 3em
+    }
+
+    .item {
+        height: 9em;
+        width: 25em;
+        margin: 5em;
+    }
+
+    .me-text {
+        font-size: 2em;
+    }
+
+    .me-description {
+        font-size: .8em;
+    }
+
+    .box-social {
+        grid-auto-rows: 1.5em;
+    }
+
+    .contact a {
+        font-size: 2em;
+    }
+    
+}
