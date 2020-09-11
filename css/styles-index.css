@@ -229,7 +229,7 @@ p{
     .item {
         height: 9em;
         width: 25em;
-        margin: 5em;
+        margin: 4em;
     }
 
     .me-text {
@@ -248,4 +248,36 @@ p{
         font-size: 2em;
     }
     
+}
+
+@media screen and (max-width: 425px) {
+    .hero-text2 {
+        font-size: 2em;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .item {
+        height: 7em;
+        width: 100%;
+        margin: 1em;
+    }
+
+    .me-text {
+        font-size: 1.5em;
+    }
+
+    .btn {
+        font-size: .8em;
+    }
+
+    .me-description {
+        font-size: .7em;
+    }
+
+    .item-title-button {
+        grid-gap: 10em;
+    }
 }
