@@ -76,7 +76,7 @@ button:hover {
 
 .container {
     height: 100%;
-    width: 50%;
+    max-width: 50%;
     padding: 0 5em;
     display: flex;
     justify-content: center;
@@ -117,10 +117,19 @@ footer {
     height: 4em;
 }
 
-iframe {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    border-style: none;
+@media screen and (max-width: 425px) {
+    #post-list {
+        grid-gap: 3px;
+        margin: 3px;
+    }
+    .container {
+        padding: 0 2em;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .container {
+        max-width: 35%;
+        padding: 0 1em;
+    }
 }

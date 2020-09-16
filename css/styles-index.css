@@ -4,6 +4,13 @@ body {
     background-color: #222;
 }
 
+.container {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
 header {
     position: absolute;
     z-index: 1;
@@ -48,6 +55,7 @@ p{
 }
 
 .hero {
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -287,12 +295,20 @@ p{
 }
 
 @media screen and (max-width: 375px) {
+    section {
+        height: 50vh;
+    }
+
+    .hero {
+        height: 100vh;
+    }
+
     .item-title-button {
         grid-gap: 9em;
     }
 
     .me-text {
-        font-size: 1em;
+        font-size: .8em;
     }
 
     .btn {
@@ -306,6 +322,7 @@ p{
 }
 
 @media screen and (max-width: 320px) {
+
     .item-title-button {
         grid-gap: 5em;
     }
