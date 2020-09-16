@@ -280,4 +280,37 @@ p{
     .item-title-button {
         grid-gap: 10em;
     }
+    
+    .box-social {
+        grid-gap: 1em;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .item-title-button {
+        grid-gap: 9em;
+    }
+
+    .me-text {
+        font-size: 1em;
+    }
+
+    .btn {
+        font-weight: bold;
+        height: 100%;
+    }
+
+    .box-social .me-text {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .item-title-button {
+        grid-gap: 5em;
+    }
+
+    .me-description {
+        font-size: .65em;
+    }
 }
