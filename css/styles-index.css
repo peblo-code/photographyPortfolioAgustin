@@ -59,7 +59,7 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("https://i.ibb.co/wWZvN2D/Processed-with-VSCO-with-f2-preset.jpg");
+    background-image: url("https://elloplur.sirv.com/index-images/Processed-with-VSCO-with-f2-preset-min.jpg");
 }
 
 .hero-figure {
@@ -96,7 +96,7 @@ p{
 .sobre_mi {
     display: flex;
     align-items: center;
-    background-image: url("https://i.ibb.co/3TDWL5Q/sobre-mi.jpg");
+    background-image: url("https://elloplur.sirv.com/index-images/sobre-mi-min.jpg");
 }
 
 .item {
@@ -173,21 +173,21 @@ p{
 }
 
 .retrato {
-    background-image: url("https://i.ibb.co/WxKCgLn/Processed-with-VSCO-with-p5-preset.jpg");
+    background-image: url("https://elloplur.sirv.com/index-images/Processed-with-VSCO-with-p5-preset-min.jpg");
     display: flex;
     align-items: center;
     justify-content: flex-end;
 }
 
 .paisaje {
-    background-image: url("https://i.ibb.co/tKgS9GM/paisaje.jpg");
+    background-image: url("https://elloplur.sirv.com/index-images/paisaje-min.jpg");
     display: flex;
     align-items: center;
     justify-content: center; 
 }
 
 .redes_sociales {
-    background-image: url("https://i.ibb.co/FXpwkMX/redes-sociales.jpg");
+    background-image: url("https://elloplur.sirv.com/index-images/redes-sociales-min.jpg");
     display: flex;
     align-items: center;
     justify-content: center; 

@@ -22,8 +22,8 @@ btnHome.onclick = function() {
 
 // CARGA DE IMAGENES
 
-const initURL = '../images'
-const URL = '../images/images.json'
+const initURL = 'https://elloplur.sirv.com/';
+const URL = '../images/images.json';
 let data;
 let response;
 
