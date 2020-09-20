@@ -55,7 +55,9 @@ function setElementAttribute(element, attributes) {
 }
 
 function renderImage(maxImg) {
+    let counter = 0;
     maxImg.forEach(img => {
+        counter += 1;
         let $section = document.getElementById('post-list')
         let $figure = document.createElement('figure');
         let $image = document.createElement('img');
@@ -64,6 +66,10 @@ function renderImage(maxImg) {
         
         const attrImage = {
             'src': `${initURL}${imgPage(data, gallery, img)}`
+        }
+
+        if(screen.width <= 425 && counter % 2 == 0) {
+            $figure.style.marginTop = '4em';
         }
 
          const attrFigure = {

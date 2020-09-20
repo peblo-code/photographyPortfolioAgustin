@@ -43,14 +43,7 @@ body {
 .post:hover .post-overlay {
     display: flex;
 }
-/* .post-likes,
-.post-comments {
-    width: 80px;
-    margin: 5px;
-    font-weight: bold;
-    text-align: center;
-    display: inline-block;
-} */
+
 @media screen and (max-width: 768px) {
     .post-list {
         grid-gap: 3px; 
@@ -119,6 +112,7 @@ footer {
 
 @media screen and (max-width: 425px) {
     #post-list {
+        grid-template-columns: repeat(2, minmax(100px, 293px) );
         grid-gap: 3px;
         margin: 3px;
     }
