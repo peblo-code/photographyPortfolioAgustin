@@ -258,24 +258,28 @@ p{
 }
 
 @media screen and (max-width: 425px) {
+    section {
+        background-size: initial;
+    }
+
     .hero {
-        background-image: url('https://elloplur.sirv.com/index-images/Processed-with-VSCO-with-f2-preset-min.jpg?canvas.width=2080&q=100');
+        background-image: url('https://elloplur.sirv.com/index-images/Processed-with-VSCO-with-f2-preset-min.jpg?canvas.width=500&w=1000&h=2200&q=100');
     }
 
     .sobre_mi {
-        background-image: url('https://elloplur.sirv.com/index-images/sobre-mi-min.jpg?canvas.width=1000&canvas.height=1800&canvas.position=south&q=100');
+        background-image: url('https://elloplur.sirv.com/index-images/sobre-mi-min.jpg?canvas.width=500&w=1500&q=100');
     }
 
     .retrato {
-        background-image: url('https://elloplur.sirv.com/index-images/Processed-with-VSCO-with-p5-preset-min.jpg?canvas.width=1080&q=100');
+        background-image: url('https://elloplur.sirv.com/index-images/Processed-with-VSCO-with-p5-preset-min.jpg?canvas.width=500&w=1500&q=100');
     }
 
     .paisaje {
-        background-image: url('https://elloplur.sirv.com/index-images/paisaje-min.jpg?canvas.width=800&q=100');
+        background-image: url('https://elloplur.sirv.com/index-images/paisaje-min.jpg?canvas.width=500&w=1000&q=100');
     }
 
     .redes_sociales {
-        background-image: url('https://elloplur.sirv.com/index-images/redes-sociales-min.jpg?canvas.width=500&q=100');
+        background-image: url('https://elloplur.sirv.com/index-images/redes-sociales-min.jpg?canvas.width=500');
     }
 
     .hero-text2 {
