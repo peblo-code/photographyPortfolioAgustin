@@ -69,7 +69,7 @@ function renderImage(maxImg) {
         }
 
         if(screen.width <= 425 && counter % 2 == 0) {
-            $figure.style.marginTop = '4em';
+            $figure.style.marginTop = '5em';
         }
 
          const attrFigure = {
