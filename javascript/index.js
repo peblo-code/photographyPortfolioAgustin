@@ -27,7 +27,7 @@ const URL = '../images/images.json';
 let data;
 let response;
 
-function imgPage(data, pages, img) {
+function imgPage(data, pages, img) { //funcion que detecta que imagen colocar dependiendo de la imagen
     let imgPosition = img || null;
     let result;
     switch(window.location.pathname) {
@@ -59,26 +59,73 @@ function renderImage(maxImg) {
     maxImg.forEach(img => {
         counter += 1;
         let $section = document.getElementById('post-list')
+        let $a = document.createElement('a');
         let $figure = document.createElement('figure');
         let $image = document.createElement('img');
+        
         $section.appendChild($figure);
-        $figure.appendChild($image);
+        $figure.appendChild($a);
+        $a.appendChild($image);
+
+        const attrA = {
+            'href': `#${img}`
+        }
         
         const attrImage = {
-            'src': `${initURL}${imgPage(data, gallery, img)}`
+            'src': `${initURL}${imgPage(data, gallery, img)}`,
+            'href': `#${img}`
         }
 
-        if(screen.width <= 425 && counter % 2 == 0) {
+        if(screen.width <= 425 && counter % 2 == 0) { // responsive mobile
             $figure.style.marginTop = '5em';
         }
 
-         const attrFigure = {
+        const attrFigure = {
             'class': 'post-image'
         }
-        setElementAttribute($figure, attrFigure)
-        setElementAttribute($image, attrImage)
+        setElementAttribute($a, attrA);
+        setElementAttribute($figure, attrFigure);
+        setElementAttribute($image, attrImage);
         //document.body.appendChild($figure);
     });
+}
+
+function makeModal(maxImg) {
+    maxImg.forEach(img => {
+        const $divModal = document.createElement('div');
+        const $divImagen = document.createElement('div');
+        const $imgImagen = document.createElement('img'); 
+        const $aCerrar = document.createElement('a');
+        $aCerrar.innerHTML = 'X';
+
+        document.body.appendChild($divModal);
+        $divModal.appendChild($divImagen);
+        $divModal.appendChild($aCerrar);
+        $divImagen.appendChild($imgImagen);
+
+        const attrDivModal = {
+            'class': 'modal',
+            'id': img
+        }
+
+        const attrDivImagen = {
+            'class': 'imagen'
+        }
+
+        const attrImgImagen = {
+            'src': `${initURL}${imgPage(data, gallery, img)}`
+        }
+
+        const attrACerrar = {
+            'class': 'cerrar',
+            'href': '#'
+        }
+
+        setElementAttribute($divModal, attrDivModal);
+        setElementAttribute($divImagen, attrDivImagen);
+        setElementAttribute($imgImagen, attrImgImagen);
+        setElementAttribute($aCerrar, attrACerrar);
+    })
 }
 
 async function getImage(URL) {
@@ -87,6 +134,7 @@ async function getImage(URL) {
         data = await response.json(); //datos
         let maxImg = Object.keys(imgPage(data, gallery)) //sacando array de datos
         renderImage(maxImg) // renderizamos las imagenes
+        makeModal(maxImg);
         
     } catch(error) {
         console.error(`Sucedio un error: ${error}`);

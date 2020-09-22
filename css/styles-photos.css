@@ -21,7 +21,14 @@ body {
     object-fit: cover;
     width: 100%;
 }
-.post-image img {
+
+.post-image a {
+    width: inherit;
+    height: inherit;
+    object-fit: inherit;
+}
+
+.post-image a img {
     width: inherit;
     vertical-align: top;
     height: inherit;
@@ -108,6 +115,55 @@ button:hover {
 
 footer {
     height: 4em;
+}
+
+.modal {
+    display: none;
+}
+
+.modal:target {
+    display: block;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 83%;
+    margin-top: 3em;
+    
+}
+
+.imagen img {
+    max-height: 100%;
+    max-width: 100%;
+    border: 7px solid #fff;
+    box-sizing: border-box;
+}
+
+.cerrar {
+    display: block;
+    background-color: #fff;
+    width: 25px;
+    height: 25px;
+    margin: 15px auto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000;
+    padding: 5px;
+    border-radius: 50%;
+    line-height: 25px;
+}
+@media screen and (max-width: 680px) {
+    
 }
 
 @media screen and (max-width: 425px) {
