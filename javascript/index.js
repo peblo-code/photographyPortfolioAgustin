@@ -22,7 +22,7 @@ btnHome.onclick = function() {
 
 // CARGA DE IMAGENES
 
-const initURL = 'https://elloplur.sirv.com/';
+const initURL = 'https://agustinlezcanophotos.sirv.com/';
 const URL = '../images/images.json';
 let data;
 let response;
@@ -133,7 +133,7 @@ async function getImage(URL) {
         response = await fetch(URL); //respuesta
         data = await response.json(); //datos
         let maxImg = Object.keys(imgPage(data, gallery)) //sacando array de datos
-        renderImage(maxImg) // renderizamos las imagenes
+        renderImage(maxImg.reverse()) // renderizamos las imagenes
         makeModal(maxImg);
         
     } catch(error) {

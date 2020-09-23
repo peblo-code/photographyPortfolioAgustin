@@ -58,7 +58,7 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("https://agustinlezcanophotos.sirv.com/index-images/Processed-with-VSCO-with-f2-preset-min.jpg");
+    background-image: url("https://agustinlezcanophotos.sirv.com/index-images/processed-with-vsco-with-f2-preset-min.jpg");
 }
 
 .hero-figure {
@@ -172,7 +172,7 @@ p{
 }
 
 .retrato {
-    background-image: url("https://agustinlezcanophotos.sirv.com/index-images/Processed-with-VSCO-with-p5-preset-min.jpg");
+    background-image: url("https://agustinlezcanophotos.sirv.com/index-images/processed-with-vsco-with-p5-preset-min.jpg");
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -263,7 +263,7 @@ p{
     }
 
     .hero {
-        background-image: url('https://agustinlezcanophotos.sirv.com/index-images/Processed-with-VSCO-with-f2-preset-min.jpg?canvas.width=500&w=1000&h=2200');
+        background-image: url('https://agustinlezcanophotos.sirv.com/index-images/processed-with-vsco-with-f2-preset-min.jpg?canvas.width=500&w=1000&h=2200');
     }
 
     .sobre_mi {
@@ -271,7 +271,7 @@ p{
     }
 
     .retrato {
-        background-image: url('https://agustinlezcanophotos.sirv.com/index-images/Processed-with-VSCO-with-p5-preset-min.jpg?canvas.width=500&w=1500');
+        background-image: url('https://agustinlezcanophotos.sirv.com/index-images/processed-with-vsco-with-p5-preset-min.jpg?canvas.width=500&w=1500');
     }
 
     .paisaje {
