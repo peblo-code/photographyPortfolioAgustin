@@ -58,7 +58,7 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("https://elloplur.sirv.com/index-images/Processed-with-VSCO-with-f2-preset-min.jpg");
+    background-image: url("https://agustinlezcanophotos.sirv.com/index-images/Processed-with-VSCO-with-f2-preset-min.jpg");
 }
 
 .hero-figure {
@@ -95,7 +95,7 @@ p{
 .sobre_mi {
     display: flex;
     align-items: center;
-    background-image: url("https://elloplur.sirv.com/index-images/sobre-mi-min.jpg");
+    background-image: url("https://agustinlezcanophotos.sirv.com/index-images/sobre-mi-min.jpg");
 }
 
 .item {
@@ -172,21 +172,21 @@ p{
 }
 
 .retrato {
-    background-image: url("https://elloplur.sirv.com/index-images/Processed-with-VSCO-with-p5-preset-min.jpg");
+    background-image: url("https://agustinlezcanophotos.sirv.com/index-images/Processed-with-VSCO-with-p5-preset-min.jpg");
     display: flex;
     align-items: center;
     justify-content: flex-end;
 }
 
 .paisaje {
-    background-image: url("https://elloplur.sirv.com/index-images/paisaje-min.jpg");
+    background-image: url("https://agustinlezcanophotos.sirv.com/index-images/paisaje-min.jpg");
     display: flex;
     align-items: center;
     justify-content: center; 
 }
 
 .redes_sociales {
-    background-image: url("https://elloplur.sirv.com/index-images/redes-sociales-min.jpg");
+    background-image: url("https://agustinlezcanophotos.sirv.com/index-images/redes-sociales-min.jpg");
     display: flex;
     align-items: center;
     justify-content: center; 
@@ -263,23 +263,23 @@ p{
     }
 
     .hero {
-        background-image: url('https://elloplur.sirv.com/index-images/Processed-with-VSCO-with-f2-preset-min.jpg?canvas.width=500&w=1000&h=2200&q=100');
+        background-image: url('https://agustinlezcanophotos.sirv.com/index-images/Processed-with-VSCO-with-f2-preset-min.jpg?canvas.width=500&w=1000&h=2200');
     }
 
     .sobre_mi {
-        background-image: url('https://elloplur.sirv.com/index-images/sobre-mi-min.jpg?canvas.width=500&w=1500&q=100');
+        background-image: url('https://agustinlezcanophotos.sirv.com/index-images/sobre-mi-min.jpg?canvas.width=500&w=1500');
     }
 
     .retrato {
-        background-image: url('https://elloplur.sirv.com/index-images/Processed-with-VSCO-with-p5-preset-min.jpg?canvas.width=500&w=1500&q=100');
+        background-image: url('https://agustinlezcanophotos.sirv.com/index-images/Processed-with-VSCO-with-p5-preset-min.jpg?canvas.width=500&w=1500');
     }
 
     .paisaje {
-        background-image: url('https://elloplur.sirv.com/index-images/paisaje-min.jpg?canvas.width=500&w=1000&q=100');
+        background-image: url('https://agustinlezcanophotos.sirv.com/index-images/paisaje-min.jpg?canvas.width=500&w=1000');
     }
 
     .redes_sociales {
-        background-image: url('https://elloplur.sirv.com/index-images/redes-sociales-min.jpg?canvas.width=500');
+        background-image: url('https://agustinlezcanophotos.sirv.com/index-images/redes-sociales-min.jpg?canvas.width=500');
     }
 
     .hero-text2 {
