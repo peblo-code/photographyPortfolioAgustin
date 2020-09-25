@@ -6,7 +6,11 @@
         "3": "/sobre-mi/mirada_perdida.jpg",
         "4": "/sobre-mi/observando_balcon.jpg",
         "5": "/sobre-mi/ojos_verdes.jpg",
-        "6": "/sobre-mi/toma_vertical.jpg"
+        "6": "/sobre-mi/toma_vertical.jpg",
+        "7": "/sobre-mi/bvcbcvx.jpg",
+        "8": "/sobre-mi/IMG_5843.jpg",
+        "9": "/sobre-mi/IMG_5884.jpg",
+        "10": "/sobre-mi/SMN0257.jpg"
     },
 
     "imgRetrato": {
@@ -27,7 +31,17 @@
         "14": "/retrato/observando_al_borde.jpg",
         "15": "/retrato/persona_caminando.jpg",
         "16": "/retrato/persona_en_tronco.jpg",
-        "17": "/retrato/persona_posando.jpeg"
+        "17": "/retrato/persona_posando.jpeg",
+        "18": "/retrato/IMG_5237.jpg",
+        "19": "/retrato/IMG_5244.jpg",
+        "20": "/retrato/IMG_5253.jpg",
+        "21": "/retrato/IMG_5435.jpg",
+        "22": "/retrato/IMG_5442.jpg",
+        "23": "/retrato/IMG_5775.jpg",
+        "24": "/retrato/IMG_5785.jpg",
+        "25": "/retrato/IMG_5812.jpg",
+        "26": "/retrato/IMG_5837.jpg",
+        "27": "/retrato/IMG_5244.jpg"
     },
 
     "imgPaisajes": {
@@ -41,7 +55,13 @@
         "7": "/paisajes/observando_ruta.jpg",
         "8": "/paisajes/paisaje_desde_rejas.jpg",
         "9": "/paisajes/paisaje_desde_ventana.jpg",
-        "10": "/paisajes/planta_marchita.jpg"
-        
+        "10": "/paisajes/planta_marchita.jpg",
+        "11": "/paisajes/IMG_5375.jpg",
+        "12": "/paisajes/IMG_5712.jpg",
+        "13": "/paisajes/IMG_5748.jpg",
+        "14": "/paisajes/IMG_5749.jpg",
+        "15": "/paisajes/IMG_5803.jpg",
+        "16": "/paisajes/IMG_5825.jpg",
+        "17": "/paisajes/IMG_5375.jpg"
     }
 }
