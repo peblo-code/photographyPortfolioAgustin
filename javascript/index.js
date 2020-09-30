@@ -54,7 +54,12 @@ function setElementAttribute(element, attributes) {
     }
 }
 
-function renderImage(maxImg) {
+
+async function renderImage(maxImg) {
+    let imageLoad = 0;
+    let $progress_bar_div = document.getElementById('progress-bar');
+    let $progress = document.createElement('progress');
+    $progress_bar_div.appendChild($progress);
     let counter = 0;
     maxImg.forEach(img => {
         counter += 1;
@@ -76,6 +81,16 @@ function renderImage(maxImg) {
             'href': `#${img}`
         }
 
+        $image.onload = function (){
+            imageLoad += 1;
+            $progress.max = maxImg.length - 1;
+            $progress.value = imageLoad;
+
+            if (imageLoad == maxImg.length - 1) {
+                $progress.style.visibility = "hidden";
+            }
+        }
+
         if(screen.width <= 425 && counter % 2 == 0) { // responsive mobile
             $figure.style.marginTop = '5em';
         }
@@ -83,11 +98,15 @@ function renderImage(maxImg) {
         const attrFigure = {
             'class': 'post-image'
         }
+
         setElementAttribute($a, attrA);
         setElementAttribute($figure, attrFigure);
         setElementAttribute($image, attrImage);
+        console.log(response.status)
         //document.body.appendChild($figure);
+
     });
+    
 }
 
 function makeModal(maxImg) {
@@ -133,7 +152,7 @@ async function getImage(URL) {
         response = await fetch(URL); //respuesta
         data = await response.json(); //datos
         let maxImg = Object.keys(imgPage(data, gallery)) //sacando array de datos
-        renderImage(maxImg.reverse()) // renderizamos las imagenes
+        await renderImage(maxImg.reverse()) // renderizamos las imagenes
         makeModal(maxImg);
         
     } catch(error) {
